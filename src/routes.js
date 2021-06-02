@@ -26,7 +26,7 @@ import Dashboard from "@material-ui/icons/Dashboard";
 // import Language from "@material-ui/icons/Language";
 // core components/views for Admin layout
 import DashboardPage from "views/Dashboard/Dashboard.js";
-import DashboardPage2 from "views/Dashboard/Dashboard3.tsx";
+import AlbumsPage from "views/Dashboard/Albums.tsx";
 // import UserProfile from "views/UserProfile/UserProfile.js";
 // import TableList from "views/TableList/TableList.js";
 // import Typography from "views/Typography/Typography.js";
@@ -39,11 +39,11 @@ import DashboardPage2 from "views/Dashboard/Dashboard3.tsx";
 
 const dashboardRoutes = [
   {
-    path: "/dashboardC",
-    name: "Dashboard Custom",
-    rtlName: "Dashboard",
+    path: "/albums",
+    name: "Albums",
+    rtlName: "Albums",
     icon: Dashboard,
-    component: DashboardPage2,
+    component: AlbumsPage,
     layout: "/admin",
   },
   {
